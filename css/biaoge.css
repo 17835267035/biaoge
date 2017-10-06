@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+main{
+	width: 600px;
+	height: auto;
+	margin: 20px auto;
+	border: 1px solid #333;
+}
+main h3{
+	text-align: center;
+	font-size: 16px;
+	color: #000;
+	line-height: 30px;
+
+}
+table{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: 1px solid #888;
+}
+tr{
+	font-size: 16px;
+	color: #000;
+	text-align: center;
+	line-height: 40px;
+	font-weight: normal; 
+}
+tr:nth-of-type(2n){
+	background: #999;
+}
+tr th{
+	font-size: 20px;
+	color: #000;
+	font-weight: 600;
+}
+th td{
+	margin-bottom: 10px;
+}
+button{
+	font-size: 12px;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	background: skyblue;
+	padding: 5px 5px;
+}
+.add{
+	font-size: 12px;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	background: skyblue;
+	padding: 5px 5px;
+	float: right;
+	margin-right: 27px;
+	margin-top: 10px;
+}
+.xc{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	
+}
+/* input{
+	width: 90px;
+	font-size: 16px;
+	color: #000;
+	text-align: center;
+	line-height: 40px;
+	font-weight: normal; 
+} */
+.search{
+	font-size: 12px;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	background: skyblue;
+	padding: 5px 5px;
+	float: right;
+	margin-right: 27px;
+	margin-top: 10px;
+}
